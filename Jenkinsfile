@@ -2,7 +2,7 @@ node{
 
     stage('SCM Checkout')
     {
-        git credentialsId: '4cc785e9-441d-4818-a248-2bfb2148004d', url: 'https://github.com/Sumesh-1991/online-shop.git'
+        git credentialsId: 'Sumesh-1991', url: 'https://github.com/Sumesh-1991/online-shop.git'
     }
     
     stage('Run Docker Compose File')
